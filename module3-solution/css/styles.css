@@ -1,0 +1,48 @@
+/** HEADER**/
+#header-nav {
+	background-color: orange;
+	border-radius: 0;  
+	border: 0;
+}
+
+#nav-list li {
+	text-align: center;
+}
+
+
+@media (min-width: 1200px){
+
+	#nav-list{
+		visibility: hidden;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+	#nav-list{
+
+		visibility: hidden;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	#nav-list{
+		visibility: hidden;
+	
+	}
+	
+}
+
+@media (min-width: 767px){
+
+	#nav-list{
+		visibility: hidden;
+
+		
+	}
+	
+}
+
+
