@@ -1,9 +1,4 @@
 /** HEADER**/
-#header-nav {
-	background-color: orange;
-	border-radius: 0;  
-	border: 0;
-}
 
 #nav-list li {
 	text-align: center;
@@ -43,6 +38,78 @@
 		
 	}
 	
+}
+
+
+* {
+	box-sizing: border-box;
+
+}
+
+body {
+	font-size: 16px;
+	color: #000;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: orange;
+	border-radius: 0;
+	border: 0;
+	padding: 20px 15px;
+
+}
+
+#header-nav a {
+
+	font-size: 30px;
+}
+
+.navbar-light .navbar-toggler {
+	border: 2px solid black;
+}
+
+
+.navbar-brand .brand {
+font-size: 1.5em;
+font-weight: bold;
+}
+
+.navbar-brand .brand a {
+text-decoration: none;
+color: #000;
+}
+#collapsable-nav #nav-list {
+background-color: #fff;
+padding: 0 20px;
+}
+#nav-list a {
+text-decoration: none;
+color: #000;
+border-bottom: 1px solid #000;  /*This is horizontal line*/
+display: block;
+padding: 10px;
+font-size: 1.1em;
+}
+
+  
+
+/*h2 {*/
+	/*margin: 20px 0 50px;*/
+/*}*/
+
+h2, h4 {
+	font-weight: bold;
+}
+
+#content-container {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#content {
+	  background-color: #444;
+	  padding: 10px;
 }
 
 
